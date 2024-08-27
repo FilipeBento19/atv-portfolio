@@ -100,8 +100,12 @@ section.banner button {
     border-radius: 3px;
 }
 
+    /*+============
+      rt-post
+=============*/
+
 section.rt-post {
-    background: #edf7fa;
+    background: #d6d6d6;
     padding: 2vw 2vw 2vw 2vw;
 }
 
@@ -123,6 +127,40 @@ section.rt-post ul li p {
 }
 section.rt-post ul {
     display: flex;
+}
+
+    /*+============
+      featured works (fw)
+=============*/
+
+section.fw h2 {
+    font-size: 2rem;
+}
+section.fw h2{
+    font-weight: 100;
+    margin: 2.5vw 0 2.5vw 0;
+}
+section.fw > div {
+    display: flex;
+}
+section.fw div h3 {
+    margin: 2vw 0 1vw 0;
+}
+section.fw div p {
+    margin: 1vw 0 1vw 0;
+}
+section.fw p span {
+    color: white;
+    background-color: #142850;
+    border-radius: 36px;
+    padding: 2px 7px 2px 7px;
+    font-weight: bold;
+}
+section.fw div p{
+    padding: 0vw 3vw 0vw 0vw;
+}
+section.fw div p.cinza {
+    color: #8695A4;
 }
 
    /*+============
